@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hqs.alx.tmdbcinemamovies.MainActivity">
+
+    <TextView
+        android:id="@+id/searchHeaderTV"
+        style="@style/Headers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center_horizontal"
+        android:padding="12dp"
+        android:text="@string/search" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/movieToSearchET"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="10"
+            android:backgroundTint="@color/backGroundColor"
+            android:ems="10"
+            android:hint="@string/searchForAmovieET"
+            android:inputType="textPersonName"
+            android:shadowColor="@color/backGroundColor"
+            android:textColor="@color/backGroundColor"
+            android:textColorLink="@color/backGroundColor" />
+
+        <ImageView
+            android:id="@+id/searchIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/search"
+            app:srcCompat="@android:drawable/ic_search_category_default" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listFromApiLV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="225dp"
+    android:minHeight="225dp"
+    android:maxHeight="225dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/favoritesReleaseDateTV"
+        style="@style/listBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/informationLAY"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:id="@+id/imageLYO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/favoritesSingleImage"
+            android:layout_width="150dp"
+            android:layout_height="225dp"
+            android:layout_margin="8dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_launcher_background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/informationLAY"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_toEndOf="@+id/imageLYO"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/favoritesTitleTV"
+            style="@style/listHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/favoritesBodyTV"
+            style="@style/listBody"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:maxLines="5"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/watchedIV"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/imageLYO"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        app:srcCompat="@drawable/view" />
+
+</RelativeLayout>

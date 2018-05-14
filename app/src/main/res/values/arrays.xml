@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_movies_sorting_spinner">
+        <item>@string/mostPopular</item>
+        <item>@string/comingSoon</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,77 @@
+<resources>
+
+    <!--
+
+    Activity Styles
+
+    -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="DetailsActiv" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="MainActivity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#006499</item>
+    </style>
+
+    <style name="SearchActivity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#006499</item>
+        <item name="android:windowBackground">@drawable/my_color</item>
+    </style>
+
+    <style name="FavoritesActivity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#006499</item>
+    </style>
+
+    <style name="NewMovieActivity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#006499</item>
+    </style>
+
+
+    <!--
+
+    TextView Styles
+
+    -->
+
+    <style name="Headers" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="listHeader" parent="@android:style/TextAppearance.Holo.Small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#FDFEFE</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="listBody" parent="@android:style/TextAppearance.Holo.Small">
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">#FDFEFE</item>
+    </style>
+
+
+
+
+</resources>

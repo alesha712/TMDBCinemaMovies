@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addANewMovieItem"
+        android:icon="@drawable/plus"
+        android:title="@string/addAnewMoviewTV"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/favoritesItem"
+        android:title="@string/myFavorites" />
+    <item
+        android:id="@+id/searchOnLineItem"
+        android:icon="@drawable/magnifier"
+        android:title="@string/search"
+        app:showAsAction="always" />
+</menu>
